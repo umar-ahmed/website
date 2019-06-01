@@ -11,7 +11,7 @@ const IndexPage = () => (
     <p>
       I am trying to learn Blender one day at a time. In the past, I have
       learned and used Cinema 4D and did a project called{" "}
-      <a href="http://trekkerdesigns.weebly.com/everydays">Everydays</a> with a
+      <a href="//trekkerdesigns.weebly.com/everydays">Everydays</a> with a
       friend of mine. Together, we did 161 days of daily renders. It was a lot
       of work, but also very rewarding to see how much we grew over the course
       of time.
