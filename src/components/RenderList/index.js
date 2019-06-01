@@ -10,8 +10,9 @@ export default function RenderList() {
       render={data =>
         data.allContentfulDaily.edges.map(({ node }) => (
           <Render
+            key={node.id}
             title={node.title}
-            files={{ render: node.render, blend: node.blend }}
+            files={{ render: node.render, blend: node.blendFile }}
             date={node.date}
             tags={node.tags}
           />
@@ -28,11 +29,10 @@ const renderListQuery = graphql`
         node {
           id
           blendFile {
-            id
-            title
             file {
               url
             }
+            title
           }
           title
           tags
