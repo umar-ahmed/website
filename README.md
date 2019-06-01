@@ -5,8 +5,10 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  Umar Ahmed's Personal Website
 </h1>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8c569cf2-85ed-486c-af71-8c39cedb4830/deploy-status)](https://app.netlify.com/sites/upbeat-dubinsky-1462ff/deploys)
 
 Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
