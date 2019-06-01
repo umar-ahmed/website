@@ -1,16 +1,8 @@
 import { distanceInWordsToNow } from "date-fns"
 import React from "react"
-import styled from "styled-components"
 
+import { RenderContainer, RenderTitle } from "./Render.styles"
 import TagList from "../TagList"
-
-const RenderContainer = styled.div`
-  margin-bottom: 20px;
-`
-
-const RenderTitle = styled.h3`
-  margin-bottom: 10px;
-`
 
 export default function Render({ title, files, tags = [], date }) {
   return (
